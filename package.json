@@ -1,0 +1,29 @@
+{
+  "name": "avatarmake",
+  "version": "1.0.0",
+  "description": "executable for generate avatar images based on @tdrmk/avatarmaker",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdrmk/avatarmaker.bin.git"
+  },
+  "keywords": [
+    "avatarmaker",
+    "avatar",
+    "avatar-maker",
+    "avatar-generator"
+  ],
+  "author": "tdrk <tdrmk@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tdrmk/avatarmaker.bin/issues"
+  },
+  "homepage": "https://github.com/tdrmk/avatarmaker.bin#readme",
+  "dependencies": {
+    "@tdrmk/avatarmaker": "^1.0.3",
+    "commander": "^8.0.0"
+  }
+}
